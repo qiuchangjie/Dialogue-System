@@ -1,0 +1,735 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41c0ba64b0f40934aa9ec46b8a188cda, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  canvasDescription: A simple demonstation dialog canvas
+  canvasTimestamp: '2018 / 01 / 01 - 17:34: 06'
+  canvasName: Demo
+  nodes:
+  - {fileID: 114949891468475130}
+  - {fileID: 114552399685633838}
+  - {fileID: 114603837590546038}
+  - {fileID: 114992423621882896}
+  - {fileID: 114992006713559470}
+  - {fileID: 114944590191592912}
+  - {fileID: 114830667301351916}
+  - {fileID: 114256337014842610}
+  - {fileID: 114563062202014424}
+  - {fileID: 114822805458499528}
+  - {fileID: 114119573281053682}
+  - {fileID: 114857287524069194}
+  - {fileID: 114505934176794598}
+  - {fileID: 114674111724956526}
+  - {fileID: 114172103791983772}
+  - {fileID: 114885975946949316}
+  - {fileID: 114332985035179290}
+  startNode: {fileID: 114287659618111838}
+  connections:
+  - {fileID: 114012438221350246}
+  - {fileID: 114351233614211242}
+  - {fileID: 114395675888485662}
+  - {fileID: 114777568302094692}
+  - {fileID: 114148754874113828}
+  - {fileID: 114437185850281778}
+  - {fileID: 114971068826531356}
+  - {fileID: 114176508002735030}
+  - {fileID: 114145555372090570}
+  - {fileID: 114044060819290610}
+  - {fileID: 114196918571939572}
+  definedPoints:
+    keys:
+    - LOOP
+    values:
+    - {fileID: 114885975946949316}
+  canvasType: 0
+--- !u!114 &114012438221350246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5746923e1e1c91d40a26841cd02e1bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fromAttributes:
+  - ID: 0
+    position: {x: 0, y: 32}
+  toAttribute:
+    ID: 0
+    position: {x: 0, y: 32}
+  froms:
+  - {fileID: 114287659618111838}
+  to: {fileID: 114949891468475130}
+--- !u!114 &114044060819290610
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5746923e1e1c91d40a26841cd02e1bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fromAttributes:
+  - ID: 0
+    position: {x: 0, y: 32}
+  toAttribute:
+    ID: 0
+    position: {x: 0, y: 32}
+  froms:
+  - {fileID: 114563062202014424}
+  to: {fileID: 114172103791983772}
+--- !u!114 &114119573281053682
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dc66d464ef269148a722ac648cff299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 456, y: 256}
+  size: {x: 432, y: 96}
+  note: 'This is useful for RPG like NPC Dialogs - But you should write your own
+
+    decision node because our system is based on friendy, strategic and
+
+    aggressive while not showing the answers.'
+--- !u!114 &114145555372090570
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5746923e1e1c91d40a26841cd02e1bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fromAttributes:
+  - ID: 0
+    position: {x: 0, y: 96}
+  toAttribute:
+    ID: 0
+    position: {x: 0, y: 32}
+  froms:
+  - {fileID: 114992006713559470}
+  to: {fileID: 114857287524069194}
+--- !u!114 &114148754874113828
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5746923e1e1c91d40a26841cd02e1bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fromAttributes:
+  - ID: 0
+    position: {x: 0, y: 32}
+  toAttribute:
+    ID: 0
+    position: {x: 0, y: 32}
+  froms:
+  - {fileID: 114944590191592912}
+  to: {fileID: 114830667301351916}
+--- !u!114 &114172103791983772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7894c09e79c07bf4291df64b5765c00e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 1088, y: 704}
+  size: {x: 128, y: 64}
+  input: {fileID: 114044060819290610}
+  output: {fileID: 0}
+--- !u!114 &114176508002735030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5746923e1e1c91d40a26841cd02e1bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fromAttributes:
+  - ID: 3
+    position: {x: 0, y: 128}
+  - ID: 2
+    position: {x: 0, y: 96}
+  - ID: 1
+    position: {x: 0, y: 64}
+  toAttribute:
+    ID: 0
+    position: {x: 0, y: 32}
+  froms:
+  - {fileID: 114992423621882896}
+  - {fileID: 114992423621882896}
+  - {fileID: 114992423621882896}
+  to: {fileID: 114822805458499528}
+--- !u!114 &114196918571939572
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5746923e1e1c91d40a26841cd02e1bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fromAttributes:
+  - ID: 0
+    position: {x: 0, y: 32}
+  toAttribute:
+    ID: 0
+    position: {x: 0, y: 32}
+  froms:
+  - {fileID: 114830667301351916}
+  to: {fileID: 114332985035179290}
+--- !u!114 &114256337014842610
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698426407d4b17a47b3cce5d4b375517, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 848, y: 584}
+  size: {x: 256, y: 176}
+  input: {fileID: 114437185850281778}
+  output: {fileID: 0}
+  speaker: {fileID: 11400000, guid: f6ed7c0c50472da41abfbd277223e386, type: 2}
+  textSource:
+    langTexts:
+      keys:
+      - DE
+      - EN
+      values:
+      - "Naja, dieser dumme Idiot will einfach nicht seiner Pflicht nachgehen. Du
+        k\xF6nntest ihm mal Pflichtbewusstsein beibringen!"
+      - Well, this fricking dude does not carry out his duty! You could teach him
+        conscientiousness!
+  audioSource:
+    langAudios:
+      keys:
+      - DE
+      - EN
+      values:
+      - {fileID: 0}
+      - {fileID: 0}
+  isAuto: 0
+  showTime: 3
+--- !u!114 &114287659618111838
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6e1d97c1393a549af60030ede3b190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: -464, y: 32}
+  size: {x: 128, y: 64}
+  output: {fileID: 114012438221350246}
+--- !u!114 &114332985035179290
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79fbf0d0aa79cbc4bb0399f246c0e97f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 912, y: 32}
+  size: {x: 128, y: 64}
+  input: {fileID: 114196918571939572}
+  pointKey: LOOP
+--- !u!114 &114351233614211242
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5746923e1e1c91d40a26841cd02e1bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fromAttributes:
+  - ID: 0
+    position: {x: 0, y: 32}
+  toAttribute:
+    ID: 0
+    position: {x: 0, y: 32}
+  froms:
+  - {fileID: 114885975946949316}
+  to: {fileID: 114992423621882896}
+--- !u!114 &114395675888485662
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5746923e1e1c91d40a26841cd02e1bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fromAttributes:
+  - ID: 0
+    position: {x: 0, y: 32}
+  toAttribute:
+    ID: 0
+    position: {x: 0, y: 32}
+  froms:
+  - {fileID: 114822805458499528}
+  to: {fileID: 114992006713559470}
+--- !u!114 &114437185850281778
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5746923e1e1c91d40a26841cd02e1bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fromAttributes:
+  - ID: 1
+    position: {x: 0, y: 192}
+  toAttribute:
+    ID: 0
+    position: {x: 0, y: 32}
+  froms:
+  - {fileID: 114992006713559470}
+  to: {fileID: 114256337014842610}
+--- !u!114 &114505934176794598
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dc66d464ef269148a722ac648cff299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 120, y: -200}
+  size: {x: 304, y: 112}
+  note: 'Use the left mouse button to move node or to
+
+    create connections.'
+--- !u!114 &114552399685633838
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dc66d464ef269148a722ac648cff299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: -200, y: -200}
+  size: {x: 304, y: 112}
+  note: 'Hello everybody,
+
+
+    this is a lightweight version of a student
+
+    made Dialog Node System.'
+--- !u!114 &114563062202014424
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698426407d4b17a47b3cce5d4b375517, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 848, y: 760}
+  size: {x: 256, y: 176}
+  input: {fileID: 114971068826531356}
+  output: {fileID: 114044060819290610}
+  speaker: {fileID: 11400000, guid: f6ed7c0c50472da41abfbd277223e386, type: 2}
+  textSource:
+    langTexts:
+      keys:
+      - DE
+      - EN
+      values:
+      - OKAY!... Ich ebenso wenig!
+      - OKAY!... Nor I did!
+  audioSource:
+    langAudios:
+      keys:
+      - DE
+      - EN
+      values:
+      - {fileID: 0}
+      - {fileID: 0}
+  isAuto: 0
+  showTime: 3
+--- !u!114 &114603837590546038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dc66d464ef269148a722ac648cff299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: -200, y: -88}
+  size: {x: 304, y: 112}
+  note: 'Use the right mouse button to create new node
+
+    or to show the object specific context menu.
+
+
+    e.g.: NodeConnection -> Delete'
+--- !u!114 &114674111724956526
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dc66d464ef269148a722ac648cff299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 120, y: -88}
+  size: {x: 304, y: 112}
+  note: 'Use the middle mouse button to move the editor
+
+    field.'
+--- !u!114 &114777568302094692
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5746923e1e1c91d40a26841cd02e1bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fromAttributes:
+  - ID: 0
+    position: {x: 0, y: 32}
+  - ID: 0
+    position: {x: 0, y: 32}
+  toAttribute:
+    ID: 0
+    position: {x: 0, y: 32}
+  froms:
+  - {fileID: 114992423621882896}
+  - {fileID: 114949891468475130}
+  to: {fileID: 114944590191592912}
+--- !u!114 &114822805458499528
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4a5ad65cd35c5f44adad657c7793754, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 304, y: 352}
+  size: {x: 128, y: 64}
+  input: {fileID: 114176508002735030}
+  output: {fileID: 114395675888485662}
+--- !u!114 &114830667301351916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698426407d4b17a47b3cce5d4b375517, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 672, y: 88}
+  size: {x: 256, y: 176}
+  input: {fileID: 114148754874113828}
+  output: {fileID: 114196918571939572}
+  speaker: {fileID: 11400000, guid: f6ed7c0c50472da41abfbd277223e386, type: 2}
+  textSource:
+    langTexts:
+      keys:
+      - DE
+      - EN
+      values:
+      - Ganz genau! Du bist so ein Idiot!
+      - Exactly! Youre an iditot!
+  audioSource:
+    langAudios:
+      keys:
+      - DE
+      - EN
+      values:
+      - {fileID: 0}
+      - {fileID: 0}
+  isAuto: 1
+  showTime: 3
+--- !u!114 &114857287524069194
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698426407d4b17a47b3cce5d4b375517, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 848, y: 408}
+  size: {x: 256, y: 176}
+  input: {fileID: 114145555372090570}
+  output: {fileID: 0}
+  speaker: {fileID: 11400000, guid: f6ed7c0c50472da41abfbd277223e386, type: 2}
+  textSource:
+    langTexts:
+      keys:
+      - DE
+      - EN
+      values:
+      - Ja habe ich! Dieser Typ hier will einfach nicht seiner Aufgabe nachgehen!
+      - Yes I have! This dude here doesn't do his tasks!
+  audioSource:
+    langAudios:
+      keys:
+      - DE
+      - EN
+      values:
+      - {fileID: 0}
+      - {fileID: 0}
+  isAuto: 0
+  showTime: 3
+--- !u!114 &114885975946949316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1a3490ae57cd4443904f8badcb952e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 16, y: 104}
+  size: {x: 128, y: 80}
+  output: {fileID: 114351233614211242}
+  pointKey: LOOP
+  isValid: 1
+--- !u!114 &114944590191592912
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698426407d4b17a47b3cce5d4b375517, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 368, y: 88}
+  size: {x: 256, y: 176}
+  input: {fileID: 114777568302094692}
+  output: {fileID: 114148754874113828}
+  speaker: {fileID: 11400000, guid: f6ed7c0c50472da41abfbd277223e386, type: 2}
+  textSource:
+    langTexts:
+      keys:
+      - DE
+      - EN
+      values:
+      - Ich habe doch nichts getan!
+      - I've done nothing!
+  audioSource:
+    langAudios:
+      keys:
+      - DE
+      - EN
+      values:
+      - {fileID: 0}
+      - {fileID: 0}
+  isAuto: 1
+  showTime: 3
+--- !u!114 &114949891468475130
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698426407d4b17a47b3cce5d4b375517, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: -224, y: 88}
+  size: {x: 256, y: 176}
+  input: {fileID: 114012438221350246}
+  output: {fileID: 114777568302094692}
+  speaker: {fileID: 11400000, guid: f6ed7c0c50472da41abfbd277223e386, type: 2}
+  textSource:
+    langTexts:
+      keys:
+      - DE
+      - EN
+      values:
+      - Du bescheuerter Idiot!
+      - You silly idiot!
+  audioSource:
+    langAudios:
+      keys:
+      - DE
+      - EN
+      values:
+      - {fileID: 0}
+      - {fileID: 0}
+  isAuto: 1
+  showTime: 3
+--- !u!114 &114971068826531356
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5746923e1e1c91d40a26841cd02e1bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fromAttributes:
+  - ID: 2
+    position: {x: 0, y: 320}
+  toAttribute:
+    ID: 0
+    position: {x: 0, y: 32}
+  froms:
+  - {fileID: 114992006713559470}
+  to: {fileID: 114563062202014424}
+--- !u!114 &114992006713559470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736e5850bd83181418482b538fd93a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 544, y: 512}
+  size: {x: 256, y: 384}
+  input: {fileID: 114395675888485662}
+  decisionA: {fileID: 114145555372090570}
+  decisionB: {fileID: 114437185850281778}
+  decisionC: {fileID: 114971068826531356}
+  speaker: {fileID: 0}
+  decisionAText:
+    langTexts:
+      keys:
+      - DE
+      - EN
+      values:
+      - Hast du ein Problem?
+      - Do you have a problem?
+  decisionAAudio:
+    langAudios:
+      keys:
+      - DE
+      - EN
+      values:
+      - {fileID: 0}
+      - {fileID: 0}
+  decisionBText:
+    langTexts:
+      keys:
+      - DE
+      - EN
+      values:
+      - Was ist los? Kann ich helfen?
+      - What's the matter? Can I help?
+  decisionBAudio:
+    langAudios:
+      keys:
+      - DE
+      - EN
+      values:
+      - {fileID: 0}
+      - {fileID: 0}
+  decisionCText:
+    langTexts:
+      keys:
+      - DE
+      - EN
+      values:
+      - Verzieh dich! Ich wollte nicht mit ... DAS hier reden...
+      - Piss off... I did not intend to talk to... THIS
+  decisionCAudio:
+    langAudios:
+      keys:
+      - DE
+      - EN
+      values:
+      - {fileID: 0}
+      - {fileID: 0}
+--- !u!114 &114992423621882896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2138245d670a3e545ac580b83ec89f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 160, y: 144}
+  size: {x: 64, y: 160}
+  input: {fileID: 114351233614211242}
+  outputA: {fileID: 114777568302094692}
+  outputB: {fileID: 114176508002735030}
+  outputC: {fileID: 114176508002735030}
+  outputD: {fileID: 114176508002735030}
